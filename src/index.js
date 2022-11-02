@@ -4,11 +4,9 @@ import './index.css';
 import {
     createBrowserRouter,
     RouterProvider,
-    Route,
 } from "react-router-dom";
 import Main from "./Main";
 import Welcome from "./Welcome";
-import Header from "./Header";
 
 const router = createBrowserRouter([
     {
